@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 #data_store
 
-TO_CHANNEL = int(environ.get('TO_CHANNEL', FILE_STORE_CHANNEL ))
+TO_CHANNEL = int(environ.get('TO_CHANNEL', ))
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
