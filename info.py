@@ -17,7 +17,7 @@ API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 BOTNAME = environ.get('BOT_NAME', "")
-BOTUSERNAME =environ.get('BOT_USERNAME', "")
+BOTID=environ.get('BOTID', "")
 #data_store
 
 TO_CHANNEL = int(environ.get('TO_CHANNEL', ))
