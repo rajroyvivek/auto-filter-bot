@@ -4,9 +4,9 @@ then
   git clone https://github.com/Unknownforall1/Auto-search-tamil-bot.git /Auto-search-tamil-bot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Auto-search-tamil-bot
+  git clone $UPSTREAM_REPO /Auto-filter-bot
 fi
-cd /Auto-search-tamil-bot
+cd /Auto-filter-bot
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 bot.py
