@@ -21,7 +21,7 @@ BOTID=environ.get('BOTID', "")
 #data_store
 
 TO_CHANNEL = int(environ.get('TO_CHANNEL', ))
-
+REQ_CHANNEL = int(environ.get('REQ_CHANNEL', ))
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 600))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
